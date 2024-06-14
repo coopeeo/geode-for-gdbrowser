@@ -1,2 +1,2 @@
-# geode-for-gdbrowser
- This is a GDBrowser extension that adds some mods from Geode!
+# Geode for GD Browser
+This is a GDBrowser extension that adds some mods from Geode!

@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Geode",
+  "version": "0.0.0.0001",
+  "version_name": "0.0.0 Beta 1",
+  "description": "Geode Mods, in GDBrowser",
+  "icons": {
+    "16": "images/icons/extension-icon-16.png",
+    "32": "images/icons/extension-icon-32.png",
+    "48": "images/icons/extension-icon-48.png",
+    "128": "images/icons/extension-icon-128.png",
+    "256": "images/icons/extension-icon-256.png"
+  },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icons/extension-icon-16.png",
+      "32": "images/icons/extension-icon-32.png",
+      "48": "images/icons/extension-icon-48.png",
+      "128": "images/icons/extension-icon-128.png",
+      "256": "images/icons/extension-icon-256.png"
+    },
+    "default_title": "Geode"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ]
+}
